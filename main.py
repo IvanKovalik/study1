@@ -1,9 +1,6 @@
-class Test:
-
-    def __init__(self) -> None:
-        pass
-
 def main():
-    print("Starting...")
+    for i in range(10):
+        print("Running command " + i)
+
 
 main()
