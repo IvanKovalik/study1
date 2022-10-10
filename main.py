@@ -1,9 +1,9 @@
-class Test:
 
-    def __init__(self) -> None:
-        pass
+def test(x: int):
+    return x * x
 
 def main():
-    print("Starting...")
+    pass
+
 
 main()
