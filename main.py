@@ -12,11 +12,15 @@ class Person:
     def is_adult(self):
         return self.age >= 18
 
+    def check_email(self):
+        return len(self.email) > 4 and self.email.count('@') == 1
+
 
 def main():
-    p = Person('name', 10, 'gj')
+    p = Person('name', 100, 'gj@dasd')
     print(p.check())
     print(p.is_adult())
+    print(p.check_email())
 
 
 main()
